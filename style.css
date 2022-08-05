@@ -1,0 +1,112 @@
+* {
+	margin: 0;
+	padding: 0;
+	font-family: Brush Script MT;
+}
+.menu_bar {
+	width: 1170px;
+	margin: auto;
+}
+header {
+	background: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)),url(2017-12-19-21-01-58-1200x800.jpg);
+	background-size: cover;
+	background-position: center center;
+	height: 100vh;
+	position: relative;
+}
+.nav_bar {
+	float: right;
+	list-style: none;
+	margin-top: 30px;
+}
+.nav_bar li {
+	display: inline-block;
+}
+.nav_bar li a {
+	color: #fff;
+	text-decoration: none;
+	padding: 5px 20px;
+	font-family: Brush Script MT;
+	font-size: 22px;
+}
+.nav_bar li a:hover {
+	background: #fff;
+	color: #000;
+}
+.logo img {
+	margin-top: 25px;
+	margin-left: 50px;
+	width: 100px;
+	height: auto;
+	float: left;
+}
+.content {
+	position: absolute;
+	width: 600px;
+	height: 300px;
+	margin: 20% 29%;
+	text-align: center;
+}
+.content h1 {
+	color: #fff;
+	text-align: center;
+	text-transform: uppercase;
+	font-size: 60px;
+}
+.content p {
+	color: #fff;
+    padding: 15px 0;
+    line-height: 1.9;
+    font-size: 16px;
+}
+.content a {
+	border: 1px solid #fff;
+	padding: 10px 25px;
+	text-decoration: none;
+	font-size: 16px;
+	text-transform: uppercase;
+	color: #fff;
+	margin-top: 20px;
+	display: inline-block;
+}
+.content a:hover {
+	background: #fff;
+	color: #000;
+}
+
+/*********Formatting page***********/
+@media (max-width: 800px) {
+	.content {
+		width: 100%;
+		margin: 20% 0;
+	}
+	.content h1 {
+		font-size: 26px;
+	}
+	.content p {
+		font-size: 18px;
+	}
+	.menu_bar {
+		width: 100%;
+	}
+	.logo {
+		width: 100%;
+		text-align: center;
+		float: none;
+		display: block;
+	}
+	.nav_bar {
+		float: none;
+		width: 100%;
+		display: block;
+		margin-top: 0;
+		text-align: center;
+	}
+	.logo img {
+		float: none;
+	}
+	.nav_bar li a {
+		position: 5px 10px;
+		font-size: 16px;
+	}
+}
